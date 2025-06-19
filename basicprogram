@@ -17,9 +17,17 @@
     ></script>
 
     <script>
-      const heading = React.createElement("h1", {}, "Hello world from React");
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(heading);
+      const heading = React.createElement(
+  "h1",
+  { id: "heading" },
+  "Hello world from React" (👀h1 is  not heading tag here , it is just the js object or react element)
+);
+(👀attributes are given in the flower brackets of object)
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(heading); (👀render converts the object h1 to heading tag and puts it in the place of heading, while displaying it.)
+
     </script>
   </body>
 </html>
